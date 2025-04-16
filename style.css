@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body{
+  font-family: 'Segoe UI',sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  line-height: 1.6;
+}
+header{
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+ 
+}
+.logo{
+  font-size: 1.5rem;
+  color: #00f7ff;
+  font-weight: bold;
+  padding:  20px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3;
+}
+nav ul li a:hover {
+  color: #00f7ff;
+}
+section {
+  padding: 100px 50px;
+  min-height: 100vh;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1{
+  font-size: 3rem;
+  color: #00f7ff;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.hero a{
+  padding: 12px 25px;
+  background: #00f7ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3 ease;
+}
+.hero a:hover{
+  background: #00e0e0;
+}
